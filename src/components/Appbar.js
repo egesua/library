@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const AppBar = () => {
+const Appbar = () => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
@@ -33,4 +33,4 @@ const AppBar = () => {
   );
 };
 
-export default AppBar;
+export default Appbar;

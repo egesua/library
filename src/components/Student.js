@@ -29,6 +29,8 @@ const Student = () => {
                 label="Student Name"
                 variant="outlined"
                 fullWidth
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 sx={{mb:2}}
               />
               <TextField
@@ -36,8 +38,12 @@ const Student = () => {
                 label="Student Adress"
                 variant="outlined"
                 fullWidth
+                value={address}
+                onChange={(e) => setAddress(e.target.value)}
               />
             </form>
+            {name}
+            {address}
           </Paper>
         </Container>
       </Box>
